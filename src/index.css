@@ -1,0 +1,32 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bg);
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: whitesmoke;
+  margin: 0;
+  height: 100vh;
+}
+
+:root {
+  --main-accent: #4392f1;
+  --main-bg: #1c1c1c;
+}
+
+.nav {
+  background-color: var(--main-accent);
+  padding: 4em 1em 1em 1em;
+  display: flex;
+  gap: .5em;
+}
+
+.nav-header {
+  margin: 0;
+  margin-left: 1em;
+}
+
+.nav-link {
+  text-decoration: underline;
+}
